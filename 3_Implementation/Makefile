@@ -22,7 +22,7 @@ unity.c\
 INC=ATM.h\
 
 Build : $(SRC) #remember to use this in .github/workflow
-	gcc $(SRC) $(INC) -o $(call FixPath,$(PROJ_NAME).$(EXEC)) 
+	gcc $(SRC) $(INC) -o $(call FixPath,$(PROJ_NAME).$(EXEC)) -lm
 
 run : Build
 	./$(call FixPath,$(PROJ_NAME).$(EXEC))
