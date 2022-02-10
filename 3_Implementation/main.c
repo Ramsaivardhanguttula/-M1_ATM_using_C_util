@@ -4,13 +4,13 @@
 int main() {
     //Local Declarations
     int option; int org_balance=20000;
-    int choose;
+    int choose; int maxn=2;
     
     bool again = true;
     
     // insert code here...
     
-    while (again) {
+    while (again && (maxn--)) {
     mainMenu();
     
     printf("=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-\n");
