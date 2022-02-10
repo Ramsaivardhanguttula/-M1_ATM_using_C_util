@@ -14,20 +14,20 @@ int a=10000;
 
 void test_DepositAmount(void){
     DepositAmount(&a,1000);
-    TEST_ASSERT_EQUAL(11000, a);
+    TEST_ASSERT_EQUAL_INT(11000, a);
     DepositAmount(&a,3000);
-    TEST_ASSERT_EQUAL(14000, a);
+    TEST_ASSERT_EQUAL_INT(14000, a);
     DepositAmount(&a,98);
-    TEST_ASSERT_EQUAL(14098, a);
+    TEST_ASSERT_EQUAL_INT(14098, a);
     }
 
 void test_WithDrawAmount(void){
     WithDrawAmount(&a,1000);
-    TEST_ASSERT_EQUAL(13098, a);
+    TEST_ASSERT_EQUAL_INT(13098, a);
     WithDrawAmount(&a,3000);
-    TEST_ASSERT_EQUAL(10098, a);
+    TEST_ASSERT_EQUAL_INT(10098, a);
     WithDrawAmount(&a,98);
-    TEST_ASSERT_EQUAL(10000, a);
+    TEST_ASSERT_EQUAL_INT(10000, a);
     }
 
 
