@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "ATM.h"
 
-int main() {
+int te_main() {
     //Local Declarations
     int option; int org_balance=0;
     int choose;

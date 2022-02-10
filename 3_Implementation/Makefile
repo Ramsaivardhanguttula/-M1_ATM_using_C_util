@@ -15,6 +15,10 @@ else
    endif
 endif
 
+TEST_SRC=  Test_ATM.c\
+ATM.c\
+unity.c\
+
 INC=ATM.h\
 
 Build : $(SRC) #remember to use this in .github/workflow
@@ -24,11 +28,11 @@ run : Build
 	./$(call FixPath,$(PROJ_NAME).$(EXEC))
 
 
-# build_test : 
-# 	gcc $(TEST_SRC) $(INC) -o $(call FixPath,$(PROJ_NAME).$(EXEC)) 
+build_test : 
+	gcc $(TEST_SRC) $(INC) -o $(call FixPath,$(PROJ_NAME).$(EXEC)) 
 
-# run_test : build_test
-# 	./$(call FixPath,$(PROJ_NAME).$(EXEC))
+run_test : build_test
+	./$(call FixPath,$(PROJ_NAME).$(EXEC))
 
 clean:
 	$(RM) $(call FixPath,*.out)

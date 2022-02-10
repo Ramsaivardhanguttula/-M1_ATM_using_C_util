@@ -10,6 +10,7 @@
  */
 
 #include "ATM.h"
+#include "stdio.h"
 
 //Functions
 
