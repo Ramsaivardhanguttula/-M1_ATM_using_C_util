@@ -3,7 +3,7 @@
 
 int main() {
     //Local Declarations
-    int option; int org_balance=20000;
+    int option; int org_balance=0;
     int choose;
     
     bool again = true;
