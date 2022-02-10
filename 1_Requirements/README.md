@@ -1,18 +1,33 @@
 # Description
 
+* The ATM Program in C is written in C programming language which provides an ease to read and comprehend the instructions used. This program for using ATM machine is built on the concept of handling an account individually.
+* Using this ATM program, a user can also view the balance in the account.
+* This ATM program in C even assists with cash withdrawal.
+* We can also use this ATM machine program for cash deposition.
 
-# Requirements
+# Research
+
+* In the earlier days where people used to carry money with themselves which became a inconvinient for them. Inconvinience is caused because of factors like thefts, blackmails, Rain(can make money wet and teared if carried with them). And also it is a worst thing to the travellers because they cannot travel with the money carrying in their hands. This built an Idea of introducing ATM machine which stands for Automated Money Teller which made humankind smart and easy. lot of trasactions can be done by ATM. There are lot of other advantages which we will get to know as we go.
 
 
 ## High Level Requirements
 
+* The ATM Program in C is written in C programming language which provides an ease to read and comprehend the instructions used. This program for using ATM machine is built on the concept of handling an account individually.
+* It can be defined as actually simple code structure of ATM transaction process to be understood by a user. For implementing this project, we may have to use function but in the meantime for easy coding, we may have to switch cause statement.
+* From this ATM program in C, we can even use the mini-program for checking the total balance, depositing the amount, and withdrawing the amount from the account definitely since it is not time overwhelming.
+* The user gets to know every update of his account balance after every service he uses.
+* After the completion of the transaction, the system asks the user that he's willing to perform another transaction. 
 
 
 ## Low level Requirements
 
+* Initially we assign the balance as $20000 as it will show the different stages of transcations and can be modified by the user.
+* The user can perform the transactions many times until the system works fine and the user enters correct information as he is suppossed to do which is seen in the system screen(console)
 
 
-## SWOT Analysis
+## Best Method Followed:
 
-
-## 5W's and 1H
+* Used functions to decrease dependency on main function.
+* Printf statements have been placed only wherever necessary to avoid confusions
+* Created header file so that the fuctions can be used where ever required without any Obligations.
+* Unit testing is done to avoid any computational errors.
