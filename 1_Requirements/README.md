@@ -31,3 +31,12 @@
 * Printf statements have been placed only wherever necessary to avoid confusions
 * Created header file so that the fuctions can be used where ever required without any Obligations.
 * Unit testing is done to avoid any computational errors.
+
+
+## SWOT Analysis:
+
+![Web_Photo_Editor (1)](https://user-images.githubusercontent.com/98812447/153535401-99f16469-8415-41e6-8494-bfb46cba98c1.jpg)
+
+## 5W's and 1H approach:
+
+![Web_Photo_Editor](https://user-images.githubusercontent.com/98812447/153535508-f2f5f5f8-52c5-4b75-90bb-2675aef8c4af.jpg)
