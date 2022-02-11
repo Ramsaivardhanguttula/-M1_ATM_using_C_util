@@ -40,3 +40,4 @@
 ## 5W's and 1H approach:
 
 ![Web_Photo_Editor](https://user-images.githubusercontent.com/98812447/153535508-f2f5f5f8-52c5-4b75-90bb-2675aef8c4af.jpg)
+* Note : The images shown are referred from internet, analysis is done and text is entered by myself
