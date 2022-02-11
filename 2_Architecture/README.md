@@ -3,7 +3,7 @@
 
 ## Design
 # Simple Representation of ATM service world wide:
-
+* [Note : some images are referred from internet for visual understanding of my project.]
 ![main-qimg-07db736eaffcdd56b2b4e941fc3fcdb9-c](https://user-images.githubusercontent.com/98812447/153534024-ca22940d-b29f-4acf-ae22-a84f02577ef3.jpg)
 
 ## Structural Representation of a Money withdrawl in ATM
