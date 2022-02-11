@@ -8,3 +8,17 @@ Repository to understand C programming as per Industry standards
 ## AIM:
 * Simple User interface.
 * Secured usage.
+## Input
+* User needs to choose what type of transaction/ operation that the user want to perform.
+* Check balance
+* With drawing money
+* Deposit money
+* Exit
+
+## Process
+* Every time a user uses ATM for checking balance, current balance is shown
+* If the user choose withdrawl of money, User can with draw money only if the amount he want to with draw is less than or equal to the current balance and after the with drawl of money, the updated money is shown after getting debitted from the current balance.
+* If the user choose to deposit money, the user can do it without any limit and the deposited money will be added to the current balance
+
+## Output
+* After every succesfull transaction updated balance is reflected and thanks the user for using the ATM services
