@@ -38,3 +38,5 @@ In the earlier days where people used to carry money with themselves which becam
 * Cash deposit facility is not safe : Similarly cash deposit facility is restricted and not safe as dropping of envelope with can in ATM is not advisable. 
 * Possibility of misusing ATM card : ATM card, if misplaced, lost or stolen, may be misused. There are number of such reported incidences now a days.
 * Loss of personnel touch with the Banks : Last but not the least, customers lose personal touch with their bankers.
+## Conclusion
+* C language can be used in inter-operating mode on a wide variety of computer platforms. The applications of this language include the creation and development of software such as operating systems and also various application levels of software. C language provides the constructs which are used to map the typical machine-level instructions efficiently and also has a primary level of usage in the assembly level language.
